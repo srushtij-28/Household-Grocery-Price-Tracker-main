@@ -1,0 +1,24 @@
+Features:
+Add, view, update, and delete grocery items.
+Record grocery prices from different shops.
+Compare prices between shops.
+Find the cheapest shop for an item.
+View price history.
+Calculate the total estimated shopping cost.
+
+1. Project structure:
+Household_Grocery_Price_Tracker/
+│
+├── main.py
+├── grocery_manager.py
+├── price_manager.py
+├── storage.py
+├── utils.py
+├── config.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+└── data/
+    ├── groceries.json
+    └── prices.json
